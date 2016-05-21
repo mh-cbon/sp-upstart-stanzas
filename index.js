@@ -148,6 +148,7 @@ SPUpstartStanzas.parseFile = function (fPath, options) {
       if (chunk.id.match(/script$/)) {
         chunk.content = chunk.content.substr(0, chunk.content.length-'end script'.length)
       }
+      delete chunk.type;
       parsedStanzas.push(chunk)
     }
     cb(null)

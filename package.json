@@ -1,6 +1,6 @@
 {
   "name": "@mh-cbon/sp-upstart-stanzas",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Stream parser for upstart stanzas files",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,9 @@
     "public": "npm publish --access=public"
   },
   "keywords": [
-    "ubuntu", "stanzas", "parser"
+    "ubuntu",
+    "stanzas",
+    "parser"
   ],
   "author": "mh-cbon <mh-cbon@users.noreply.github.com>",
   "license": "MIT",

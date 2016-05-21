@@ -2,3 +2,4 @@
 /node_modules/
 Vagrantfile
 /example.js
+/fixtures/
